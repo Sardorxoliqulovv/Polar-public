@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   font-family: "Roboto", sans-serif;
@@ -57,8 +57,68 @@ img {
 }
 
 .btn {
-    background-color:#DC0048;
-    color: #fff;
-    padding: 14px 50px;
-    border-radius: 12px;
+  background-color: #DC0048;
+  color: #fff;
+  padding: 14px 50px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+/* main content */
+.main__content {
+  margin-top: 206px;
+}
+
+
+.main__content__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  opacity: 90%;
+}
+
+.main__content__title {
+  font-weight: 600;
+  font-size: 57.33px;
+  line-height: 121%;
+  width: 665px;
+  font-family: "Fredoka", sans-serif;
+  color: #0F0101;
+  margin-top: 6px;
+  margin-bottom: 35px;
+}
+
+.ice {
+  color: #DC0048;
+    font-weight: 600;
+  font-size: 57.33px;
+  line-height: 121%;
+  width: 665px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.main__content__text {
+  width: 523px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Hind Madurai", sans-serif;
+  opacity: 50%;
+  margin-bottom: 50px;
+}
+
+
+.right__ice__img img:nth-child(1) {
+  position: relative;
+  top: 60px;
+  width: 860px;
+  left: -80px;
+}
+
+.right__ice__img img:nth-child(2) {
+ width: 190px;
+ position: relative;
+ top: -80px;
+ left: 240px;
 }
