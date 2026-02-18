@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-  font-family: "Roboto", sans-serif;
+font-family: "Hind Madurai", sans-serif;
   list-style-type: none;
   text-decoration: none;
   margin: 0;
@@ -113,7 +113,7 @@ img {
   position: relative;
   top: 60px;
   width: 860px;
-  left: -80px;
+  left: -60px;
 }
 
 .right__ice__img img:nth-child(2) {
@@ -121,4 +121,58 @@ img {
   position: relative;
   top: -80px;
   left: 240px;
+}
+
+/* main section */
+
+.box {
+  border: 1px solid #00000008;
+  border-radius: 12px;
+  box-shadow: 20px 20px 50px 0px #00000008;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+  margin: 62px 0 60px 0;
+}
+
+.box img {
+  width: 51px;
+  margin: 33px 0 24px 0;
+}
+
+.box__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  margin-bottom: 9px;
+}
+
+
+.box__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+}
+
+/* braun suger */
+
+#brown__sugar {
+  background-color: #F2CEDA;
+}
+
+.brown__sugar__content h2 {
+  width: 360px;
+  margin-bottom: 110px;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 111.00000000000001%;
+
+}
+
+.brown__sugar__img {
+  width: 665px;
+  position: relative;
+  left: 100px;
 }
