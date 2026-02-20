@@ -221,17 +221,17 @@ img {
 }
 
 .ice__box__title {
-font-weight: 700;
-font-size: 26px;
-line-height: 100%;
-margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  margin-bottom: 11px;
 }
 
 .ice__box__text {
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 34px;
 }
 
 .money__section {
@@ -239,7 +239,70 @@ margin-bottom: 34px;
 }
 
 .money__section span:nth-child(1) {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+}
+
+/* adel */
+
+
+.adel__face__box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.adel__face__img {
+  width: 58px;
+}
+
+.adel__title {
 font-weight: 500;
-font-size: 26px;
+font-size: 24px;
 line-height: 100%;
+}
+
+.adel__title p {
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+text-align: center;
+margin-top: 10px;
+}
+
+.adel__info {
+  width: 322px;
+}
+
+
+.adel__info .adel__text {
+  margin: 50px 0 56px 0;
+}
+.adel__text img {
+  width: 10px;
+  margin: 0 5px;
+}
+
+.adel__img__bar .row i  {
+  color: #D64374;
+}
+
+.adel__img__bar .row img:nth-child(2), img:nth-child(4) {
+  width: 35px;
+}
+
+.adel__img__bar .row img:nth-child(3) {
+  width: 58px;  
+}
+
+.adel__img {
+  width: 564px;
+}
+
+/* order section */
+
+#orderFood {
+  background-color: #F8EDF0;
+  margin-top: 60px;
 }
