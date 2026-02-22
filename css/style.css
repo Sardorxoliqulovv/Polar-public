@@ -417,7 +417,7 @@ form label {
   margin-top: 30px;
 }
 
-input {
+.products__information__content__input {
   background-color: #FAFAFA;
   padding: 29px 30px;
   display: inline;
@@ -427,7 +427,7 @@ input {
   border-radius: 12px;
 }
 
-button {
+.products__information__content__input~button {
   position: relative;
   left: -30px;
   display: inline-block;
@@ -444,3 +444,94 @@ button {
 }
 
 /* footer */
+
+#footer {
+  background-color: #0A0808;
+}
+
+#footer * {
+  color: #fff;
+}
+
+.footer__content {
+  padding-bottom: 60px;
+}
+
+.footer__main__img {
+  width: 79px;
+}
+
+.footer__content__box__text {
+  width: 207px;
+}
+
+.footer__content__box__text p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 1%;
+  opacity: 70%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 207px;
+}
+
+.footer__content__box__text h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+
+.footer__content__box__info {
+  display: flex;
+  align-items: center;
+  gap: 132px;
+  margin: 80px 0 0 0;
+}
+
+.footer__content__box__title {
+  margin-bottom: 10px;
+}
+
+.footer__content__box__list .footer__content__box__item {
+  margin-bottom: 10px;
+  opacity: 70%;
+}
+
+.footer__content__box__subscribe {
+  margin-top: 50px;
+}
+
+.footer__content__box__subscribe form label {
+  margin-bottom: 20px;
+}
+
+.footer__inpuy {
+  border: 2px solid #D64374;
+  outline: none;
+  padding: 20px 30px;
+  background-color: #0A0808;
+  border-radius: 8px;
+  width: 260px;
+}
+
+
+.footer__content__box__subscribe form label button {
+  background-color: #D64374;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  border-radius: 12px;
+  padding: 20px 30px;
+  cursor: pointer;
+  position: relative;
+  left: -30px;
+}
+
+.payment__siystems img {
+  width: 40px;
+  height: 20px;
+}
