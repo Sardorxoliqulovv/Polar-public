@@ -380,3 +380,67 @@ img:nth-child(4) {
   font-size: 22px;
   line-height: 100%;
 }
+
+/*  products__information */
+
+.products__information {
+  margin-top: 140px;
+  margin-bottom: 130px;
+}
+
+.products__information__content {
+  width: 520px;
+  margin: auto;
+}
+
+.products__information__content h3 {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.products__information__input {
+  width: 640px;
+  margin: auto;
+}
+
+.products__information__input form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 30px;
+}
+
+input {
+  background-color: #FAFAFA;
+  padding: 29px 30px;
+  display: inline;
+  border: none;
+  outline: none;
+  width: 640px;
+  border-radius: 12px;
+}
+
+button {
+  position: relative;
+  left: -30px;
+  display: inline-block;
+  width: 135px;
+  background-color: #D64374;
+  border: none;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* footer */
